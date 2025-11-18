@@ -1,2 +1,89 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
+.container{
+   display:flex;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container a{
+text-decoration: none;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+padding:10px;
+justify-content: space-between;
+
+}
+.container a{
+justify-content: space-between;
+}
+nav{
+   padding:5px 5px;
+   background-color: green;
+   display: flex;
+   justify-content: space-between;
+   
+   
+}
+.banner div{
+padding:1px 1px;
+display:flex;
+text-align: right;
+}
+#links a{
+   text-decoration: none;
+   display: flex;
+   flex-direction: row;
+   color:black;
+   font-family:Arial, Helvetica, sans-serif;
+   margin:10px;
+}
+
+.banner p{
+   text-align: center;
+   margin-top: -30px;
+   margin-left:30px;
+
+}
+.banner div{
+   font-size: 19pt;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+   
+
+#main  h1{
+   
+   flex:1;
+   margin-left:400px;
+   margin-top: 200px;
+   
+   
+}
+#sample h1{
+   flex:1;
+   margin-left:400px;
+   margin-top:200px;
+   
+  
+    
+}
+footer{
+   padding:8px 10px;
+   background-color: green;
+
+
+   display: flex;
+   align-items: end;
+}
+footer p{
+color:white;
+   font-family:Arial, Helvetica, sans-serif;
+   margin-left: 550px;
+   
+
+}
+.divider{
+   border:2px solid rgb(131, 131, 131);
+   filter: drop-shadow(8px 8px 10px gray);
+   height:450px;
+   margin-left: 50px;
+}
