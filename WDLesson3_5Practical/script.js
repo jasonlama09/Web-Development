@@ -4,11 +4,24 @@
       3) Display the results in the appropriate element
 */
 function recArea(){
+let length = document.getElementById("length");
+let width = document.getElementById("width");
+let output = document.getElementById("output");
 
+let area = length.value * width.value;
+output.innerHTML = area;
 }
 
 function recPerimeter(){
+let length = document.getElementById("plength");
+let width = document.getElementById("pwidth");
+let output = document.getElementById("output");
 
+let l = Number(length.value);
+let w = Number(width.value);
+
+let perimeter = 2 * (l + w);
+output.innerHTML = perimeter;
 }
 
 
