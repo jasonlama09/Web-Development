@@ -11,7 +11,18 @@ function name(){
 
 }
 */
+function calulateArea(){
+let l = document.getElementById("length").value;
+let w = document.getElementById("width").value;
+let a = l * w;
+if msg = "";
+if ( l <= 0 || w <= 0){
+  msg = "Not an appropriate number"
+}else{
 
+  msg = 'Area is ${a}'
+}
+}
 /* Challenge 2:  Create the function for Challenge 1 scenario */
 
 
@@ -21,5 +32,9 @@ function name(){
 2) You will need to write HTML as part of the output.  
    For example, output.innerHTML = `<input src="pic.png">` would place the image in the <div>*/
 function pet(){
+let animal = document.getElementById("animal").value;
+let feeling = document.getElementById("emotion").value;
+let output = document.getElementById("output");
 
+if
 }
